@@ -6,3 +6,13 @@ h1 {
 	color: rgb(88, 41, 69);
 }
 dd { margin-inline-start: 40px; }
+div {
+  border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
