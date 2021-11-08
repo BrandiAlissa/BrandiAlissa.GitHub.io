@@ -6,7 +6,7 @@ h1 {
 	color: rgb(88, 41, 69);
 }
 dd { margin-inline-start: 40px; }
-nav {
+li {
   border: 0.5rem outset pink;
   outline: 0.5rem solid khaki;
   box-shadow: 0 0 0 2rem skyblue;
