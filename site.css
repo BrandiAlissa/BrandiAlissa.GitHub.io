@@ -8,7 +8,7 @@ h1 {
 dd { margin-inline-start: 40px; }
 div {
   border: 0.5rem outset pink;
-  border-radius: 4px;
+  border-radius: 40px;
   font: bold 1rem sans-serif;
   margin: 2rem;
   outline-offset: 0.5rem;
