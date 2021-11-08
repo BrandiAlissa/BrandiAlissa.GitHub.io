@@ -12,17 +12,17 @@ html {
   padding-top: 10px;
 }
 
-article span {
+nav span {
   background-color: black;
   color: white;
   margin: 1px;
 }
 
-article, span {
+nav, span {
   padding: 10px;
   border-radius: 7px;
 }
 
-article, div {
+nav, div {
   margin: 20px;
 }
