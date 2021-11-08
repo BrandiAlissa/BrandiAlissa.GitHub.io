@@ -8,7 +8,6 @@ h1 {
 dd { margin-inline-start: 40px; }
 div {
   border: 0.5rem outset pink;
-  box-shadow: 0 0 0 2rem skyblue;
   border-radius: 4px;
   font: bold 1rem sans-serif;
   margin: 2rem;
