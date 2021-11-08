@@ -5,3 +5,4 @@ p {
 h1 {
 	color: rgb(88, 41, 69);
 }
+dd { margin-inline-start: 40px; }
