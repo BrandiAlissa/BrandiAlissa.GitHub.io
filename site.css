@@ -6,9 +6,6 @@ h1 {
 	color: rgb(88, 41, 69);
 }
 dd { margin-inline-start: 40px; }
-div {
-  border: 4mm ridge rgba(170, 50, 220, .6);;
-}
 html {
   font-family: helvetica, arial, sans-serif;
   letter-spacing: 1px;
