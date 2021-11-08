@@ -6,23 +6,3 @@ h1 {
 	color: rgb(88, 41, 69);
 }
 dd { margin-inline-start: 40px; }
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-  padding-top: 10px;
-}
-
-nav span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-}
-
-nav, span {
-  padding: 10px;
-  border-radius: 7px;
-}
-
-nav, div {
-  margin: 20px;
-}
