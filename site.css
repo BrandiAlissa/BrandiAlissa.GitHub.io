@@ -9,9 +9,8 @@ dd { margin-inline-start: 40px; }
 div {
   border: 0.5rem outset pink;
   box-shadow: 0 0 0 2rem skyblue;
-  border-radius: 8px;
+  border-radius: 4px;
   font: bold 1rem sans-serif;
   margin: 2rem;
-  padding: 1rem;
   outline-offset: 0.5rem;
 }
