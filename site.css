@@ -8,9 +8,8 @@ h1 {
 dd { margin-inline-start: 40px; }
 li {
   border: 0.5rem outset pink;
-  outline: 0.5rem solid khaki;
   box-shadow: 0 0 0 2rem skyblue;
-  border-radius: 12px;
+  border-radius: 8px;
   font: bold 1rem sans-serif;
   margin: 2rem;
   padding: 1rem;
