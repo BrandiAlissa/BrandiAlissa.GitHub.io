@@ -32,6 +32,8 @@
       {% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
+	border: 4mm ridge rgb(255, 192, 203);
+	border-radius: 25% 10%;
 	 {% include navigation.html %}
       {{ content }}
 
