@@ -5,3 +5,10 @@ p {
 h1 {
 	color: rgb(88, 41, 69);
 }
+ul {
+  list-style: url('/media/examples/rocket.svg');
+}
+
+ul li::before {
+  content: "\200B";
+}
