@@ -2,7 +2,7 @@
 layout: post
 title: Style Lab
 Category:
--Blogging
+-Labs
 ---
 
 This is my **second post**.
