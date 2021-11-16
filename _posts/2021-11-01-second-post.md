@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Style Lab
+Category:
+-Blogging
 ---
 
 This is my **second post**.
