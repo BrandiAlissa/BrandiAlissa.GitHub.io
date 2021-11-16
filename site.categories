@@ -1,7 +1,0 @@
----
-layout: default
-title: categories
-categories: [Interest, About, Labs]
----
-
-{% for post in site.categories[cat] %}
