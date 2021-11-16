@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Post by Category
+    permalink: /categoryview/
+    sitemap: false
 ---
 <h1>Posts by Categories</h1>
 
