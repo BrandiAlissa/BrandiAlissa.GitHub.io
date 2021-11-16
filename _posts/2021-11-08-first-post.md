@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My First Post
+Category: [interest]
 ---
 
 This is my **first post**.
