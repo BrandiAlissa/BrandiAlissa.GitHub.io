@@ -1,12 +1,10 @@
 ---
-layout: page
-title: Post by Category
+    layout: page
+    title: Post by Category
     permalink: /categoryview/
     sitemap: false
----
-<h1>Posts by Categories</h1>
-
-<div>
+    ---
+    <div>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
         <span class="site-tag">
@@ -16,7 +14,7 @@ title: Post by Category
         </span>
     {% endfor %}
 </div>
-  <div id="index">
+<div id="index">
     {% for category in categories %}
         <a name="{{ category[0] }}"></a>
         <h2>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})</h2>
@@ -29,4 +27,3 @@ title: Post by Category
         {% endfor %}
     {% endfor %}
 </div>
-</ul>
