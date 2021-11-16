@@ -1,28 +1,24 @@
 ---
 layout: default
+permalink: /categories/
 title: Categories
-order: 1
 ---
-<h1>Posts by Categories</h1>
+<h1>Posts by Category</h1>
 
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
 
-
-{%- assign categories = site.categories | sort -%}
-{%- for category in categories -%}
-
-{%- assign categoryName = category[0] -%}
-{%- assign categoryNumPosts = category[1] | size -%}
-<h2 id="{{categoryName | uri_escape | downcase }}">{{ categoryName }} ({{ categoryNumPosts }})</h2>
-
-<ul>
-    {% assign sorted_posts = category[1] | reversed %}
-    {% for post in sorted_posts %}
-    <li>
-        <a href="{{ post.url }}"></a> -
-        <time datetime="{{ post.date | date_to_xmlschema }}"
-              itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-    </li>
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
     {% endfor %}
-</ul>
-
-{%- endfor -%}
+  </div>
+{% endfor %}
+</div>
