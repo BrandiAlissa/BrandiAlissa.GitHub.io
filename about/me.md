@@ -1,9 +1,7 @@
 ---
 layout: default
 title: About Me
-categories:
-- about
-- welcome
+categories: [about]
 ---
 # This page is all about little old me!
 
